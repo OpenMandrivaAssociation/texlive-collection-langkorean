@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-collection-langkorean
-Version:	20140621
-Release:	4
+Version:	20170414
+Release:	1
 Summary:	Korean
 Group:		Publishing
 URL:		http://tug.org/texlive
