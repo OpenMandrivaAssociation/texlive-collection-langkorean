@@ -1,17 +1,11 @@
-# revision 33790
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-langkorean
-Version:	20190228
+Version:	54074
 Release:	1
 Summary:	Korean
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langkorean.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langkorean.r54074.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -33,7 +27,7 @@ Support for Korean; additional packages in collection-langcjk.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
