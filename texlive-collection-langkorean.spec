@@ -1,6 +1,6 @@
 Name:		texlive-collection-langkorean
 Version:	54074
-Release:	1
+Release:	2
 Summary:	Korean
 Group:		Publishing
 URL:		http://tug.org/texlive
